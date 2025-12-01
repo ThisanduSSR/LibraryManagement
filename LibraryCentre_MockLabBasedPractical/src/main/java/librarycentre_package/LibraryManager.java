@@ -9,6 +9,8 @@ package librarycentre_package;
  * @author b.villarini
  */
 public interface LibraryManager {
+    void editTitleItem();
+
     
     boolean runMenu(); // Run Menu - main function
     
