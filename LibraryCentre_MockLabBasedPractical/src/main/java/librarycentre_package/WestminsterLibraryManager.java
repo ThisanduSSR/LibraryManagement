@@ -25,9 +25,12 @@ public class WestminsterLibraryManager implements LibraryManager {
         Scanner sc  = new Scanner(System.in);
         System.out.println("Enter ISBN:");
         String isbn = sc.nextLine();
+
+        for(Item i : itemList) {
+            if(i.getISBN().equals(isbn)) {
+            }
+        }
     }
-
-
 
     @Override
     public boolean runMenu() {
