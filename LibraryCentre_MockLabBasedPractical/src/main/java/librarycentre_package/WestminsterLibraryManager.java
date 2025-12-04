@@ -91,6 +91,10 @@ public class WestminsterLibraryManager implements LibraryManager {
             case 3:
                 this.runGUI();
                 break;
+
+            case 4:
+                this.editTitleItem();
+                break;
            
         }
         
