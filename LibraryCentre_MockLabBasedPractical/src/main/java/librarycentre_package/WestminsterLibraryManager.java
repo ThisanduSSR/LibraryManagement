@@ -38,10 +38,10 @@ public class WestminsterLibraryManager implements LibraryManager {
             System.out.println("New Title:");
             String newTitle = sc.nextLine();
 
+            i.setTitle(newTitle);
 
+            System.out.println("Saved Successfully.");
         }
-
-
     }
 
     @Override
