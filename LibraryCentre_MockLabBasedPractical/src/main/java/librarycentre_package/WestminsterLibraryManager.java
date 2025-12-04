@@ -29,7 +29,13 @@ public class WestminsterLibraryManager implements LibraryManager {
         for(Item i : itemList) {
             if(i.getISBN().equals(isbn)) {
             }
+            System.out.println("Enter title"+i.getTitle());
+            System.out.println("Enter publication year:"+i.getPublicationYear());
+
+
         }
+
+
     }
 
     @Override
