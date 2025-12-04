@@ -32,6 +32,12 @@ public class WestminsterLibraryManager implements LibraryManager {
             System.out.println("Enter title"+i.getTitle());
             System.out.println("Enter publication year:"+i.getPublicationYear());
 
+            if(i instanceof Book) System.out.println("Type:Book");
+            if(i instanceof DVD) System.out.println("Type:DVD");
+
+            System.out.println("New Title:");
+            String newTitle = sc.nextLine();
+
 
         }
 
