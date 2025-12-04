@@ -21,6 +21,13 @@ public class WestminsterLibraryManager implements LibraryManager {
         itemList = new ArrayList<Item>();
         item_limit = maxItemNumber;
     }
+    public void editTitleItem() {
+        Scanner sc  = new Scanner(System.in);
+        System.out.println("Enter ISBN:");
+        String isbn = sc.nextLine();
+    }
+
+
 
     @Override
     public boolean runMenu() {
