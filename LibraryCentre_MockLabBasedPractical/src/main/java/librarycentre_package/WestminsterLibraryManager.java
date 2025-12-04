@@ -41,7 +41,9 @@ public class WestminsterLibraryManager implements LibraryManager {
             i.setTitle(newTitle);
 
             System.out.println("Saved Successfully.");
+            return;
         }
+        System.out.println("Item not found ");
     }
 
     @Override
