@@ -45,7 +45,6 @@ public class WestminsterLibraryManager implements LibraryManager {
         }
         System.out.println("Item not found ");
     }
-
     @Override
     public boolean runMenu() {
          boolean exit = false; // Exit flag
@@ -60,6 +59,8 @@ public class WestminsterLibraryManager implements LibraryManager {
         System.out.println("To Display the list of item press 2");
         
         System.out.println("To Open GUI, press 3");
+
+        System.out.println("Edit item title, press 4");
         
         
 
