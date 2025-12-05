@@ -4,7 +4,7 @@
  */
 package librarycentre_package;
 
-public abstract class Item {
+public class Item {
     
     //attributes - instance variables
     private String title;

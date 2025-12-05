@@ -61,10 +61,7 @@ public class WestminsterLibraryManager implements LibraryManager {
         System.out.println("To Open GUI, press 3");
 
         System.out.println("Edit item title, press 4");
-        
-        
 
-        
         // Switch based on selected option
         Scanner s = new Scanner(System.in);
         int choice;
