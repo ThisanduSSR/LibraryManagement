@@ -4,7 +4,7 @@
  */
 package librarycentre_package;
 
-public class Item {
+public class Item implements Comparable<Item>{
     
     //attributes - instance variables
     private String title;
@@ -41,7 +41,12 @@ public class Item {
     public void setPublicationYear(int publicationYear) {
         this.publicationYear = publicationYear;
     }
-    
+
+   @Override
+   public int compareTo(Item other) {
+        return Integer.compare(this.publicationYear, other.publicationYear);
+    }
+
     // description of the object
     @Override
     public String toString(){
